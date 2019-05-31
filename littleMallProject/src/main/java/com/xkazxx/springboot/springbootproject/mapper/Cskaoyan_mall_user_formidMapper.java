@@ -14,4 +14,6 @@ public interface Cskaoyan_mall_user_formidMapper {
     int updateByPrimaryKeySelective(Cskaoyan_mall_user_formid record);
 
     int updateByPrimaryKey(Cskaoyan_mall_user_formid record);
+
+
 }

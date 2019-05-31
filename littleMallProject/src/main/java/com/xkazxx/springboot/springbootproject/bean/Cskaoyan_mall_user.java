@@ -1,7 +1,9 @@
 package com.xkazxx.springboot.springbootproject.bean;
 
-import java.util.Date;
+import org.springframework.stereotype.Component;
 
+import java.util.Date;
+@Component
 public class Cskaoyan_mall_user {
 
     private Integer id;

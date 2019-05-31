@@ -14,4 +14,6 @@ public interface Cskaoyan_mall_order_goodsMapper {
     int updateByPrimaryKeySelective(Cskaoyan_mall_order_goods record);
 
     int updateByPrimaryKey(Cskaoyan_mall_order_goods record);
+
+    int countTotalGoods();
 }

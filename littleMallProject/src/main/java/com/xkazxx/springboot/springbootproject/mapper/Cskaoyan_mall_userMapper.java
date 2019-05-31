@@ -1,8 +1,10 @@
 package com.xkazxx.springboot.springbootproject.mapper;
 
 import com.xkazxx.springboot.springbootproject.bean.Cskaoyan_mall_user;
+import com.xkazxx.springboot.springbootproject.bean.Cskaoyan_mall_user_formid;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 public interface Cskaoyan_mall_userMapper {
@@ -23,4 +25,6 @@ public interface Cskaoyan_mall_userMapper {
 
     List<Cskaoyan_mall_user> getUserList(@Param("page") Integer page, @Param("limit") Integer limit,
                                          @Param("username") String username, @Param("mobile") String mobile);
+
+    int countUserByAddDate();
 }
